@@ -1,0 +1,19 @@
+# 서울에 위치한 식당 목록 출력하기
+# 프로그래머스 (unknown)
+# 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/131118
+# 작성자: 손삼주
+# 작성일: 2026. 01. 20. 22:19:19
+
+-- 코드를 입력하세요
+SELECT
+    R.REST_ID,
+    REST_NAME,
+    FOOD_TYPE,
+    FAVORITES,
+    ADDRESS,
+    ROUND(AVG(REVIEW_SCORE),2) AS SCORE
+FROM REST_REVIEW R INNER JOIN REST_INFO I 
+    ON R.REST_ID = I.REST_ID
+WHERE SUBSTR(ADDRESS, 1, 2) LIKE '서울%'
+GROUP BY R.REST_ID
+ORDER BY SCORE DESC, FAVORITES DESC
