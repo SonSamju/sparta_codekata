@@ -11,3 +11,17 @@ def solution(num1, num2):
         return answer
     else : 
         print("숫자를 다시 입력하세요.")
+
+
+# 다른 풀이방법
+
+def solution(num1, num2):
+    #return num1 * num2
+    i = 0
+    answer = 0
+    while i < num2:
+        answer += num1
+        i += 1
+    return answer
+
+#while문을 사용해서 num1,num2 > 0 제한조건을 만족시킨 점이 신기했다.
