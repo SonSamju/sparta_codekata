@@ -2,7 +2,7 @@
 # 프로그래머스 (unknown)
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/77487
 # 작성자: 손삼주
-# 작성일: 2026. 01. 21. 10:18:32
+# 작성일: 2026. 01. 21. 10:23:12
 
 -- 코드를 입력하세요
 WITH HEAVY_USER AS 
