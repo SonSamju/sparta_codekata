@@ -3,7 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120847
 # 알고리즘: 기초
 # 작성자: 손삼주
-# 작성일: 2026. 01. 22. 09:22:41
+# 작성일: 2026. 01. 22. 09:24:45
 
 def solution(numbers):
     numbers.sort(reverse=True)
