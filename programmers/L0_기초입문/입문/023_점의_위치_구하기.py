@@ -3,7 +3,7 @@
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/120841
 # 알고리즘: 기초
 # 작성자: 손삼주
-# 작성일: 2026. 02. 23. 13:24:35
+# 작성일: 2026. 02. 23. 13:26:19
 
 def solution(dot):
     if dot[0] > 0 and dot[1] > 0:
