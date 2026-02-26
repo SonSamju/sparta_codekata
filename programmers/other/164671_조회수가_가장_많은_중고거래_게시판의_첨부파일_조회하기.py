@@ -2,7 +2,7 @@
 # 프로그래머스 (unknown)
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/164671
 # 작성자: 손삼주
-# 작성일: 2026. 02. 26. 10:28:16
+# 작성일: 2026. 02. 26. 10:30:41
 
 -- 파일경로: /home/grep/src/BOARD_ID/FILE_IDFILE_NAME.FILE_EXT
 SELECT CONCAT('/home/grep/src/', BOARD_ID, '/', FILE_ID, FILE_NAME, FILE_EXT) AS FILE_PATH
