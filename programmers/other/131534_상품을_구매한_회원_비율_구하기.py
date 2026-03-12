@@ -2,7 +2,7 @@
 # 프로그래머스 (unknown)
 # 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/131534
 # 작성자: 손삼주
-# 작성일: 2026. 03. 12. 15:45:18
+# 작성일: 2026. 03. 12. 15:45:36
 
 SELECT
     YEAR(SALES_DATE) AS YEAR,
